@@ -9,6 +9,7 @@ class ParentClass{
         this.width = 100;
         this.height = 100;
         World.add(world, this.body);
+        console.log("Parent Class")
       }
       display(){
         var angle = this.body.angle;

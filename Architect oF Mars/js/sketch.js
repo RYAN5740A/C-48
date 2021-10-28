@@ -164,13 +164,15 @@ Engine.update(engine);
     RectangleSprite4.addImage(RectangleImg)
     RectangleSprite4.scale=0.6
 
-    verticalBar= new VerticalProp(width/8,height/1-60,30,100)
+    console.log("sketch")
+    
+    verticalBar = new VerticalProp(width/8,height/1-60,30,100)
     verticalBar.shapeColor="steelblue"
-    HorizontalProp=createSprite(width/8+200,height/1-60,100,30)
-    HorizontalProp.shapeColor="steelblue"
-    LeftAngledBar = new AngledProp(870,120,150, -PI/7);
-    RightAngledProp=createSprite(width/8+600,height/1-60,100,30)
-    RightAngledProp.shapeColor="steelblue"
+    // HorizontalProp=createSprite(width/8+200,height/1-60,100,30)
+    // HorizontalProp.shapeColor="steelblue"
+    // LeftAngledBar = new AngledProp(870,120,150, -PI/7);
+    // RightAngledProp=createSprite(width/8+600,height/1-60,100,30)
+    // RightAngledProp.shapeColor="steelblue"
 
     VerticalProp1=createSprite(width/10+30,height/4+3,30,120)
     VerticalProp1.shapeColor="steelblue"
@@ -376,10 +378,10 @@ Engine.update(engine);
     }
   function Info(){
 
-      InfoBG=createSprite(width/2,height/2,windowWidth,windowHeight)
-      InfoBG.scale=0.3
-      InfoBG.addImage(BackgroundImg1)
-      InfoBG.alpha=0.5;
+    //   InfoBG=createSprite(width/2,height/2,windowWidth,windowHeight)
+    //   InfoBG.scale=0.3
+    //   InfoBG.addImage(BackgroundImg1)
+    //   InfoBG.alpha=0.5;
 
       fill("Black")
       stroke("Black")
@@ -396,8 +398,8 @@ Engine.update(engine);
       
   }
 }
-console.log("Succec")
-console.log(mousePressedOver(HowToPlay))
+// console.log("Succec")
+// console.log(mousePressedOver(HowToPlay))
 // if(mousePressedOver(HowToPlay)){
 //     gameState=INFO;
 //     console.log("Test Succecfull")
